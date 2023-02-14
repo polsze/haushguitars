@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #000;
+}
+
+/** HEADER **/
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.cont-nav {
+    background: #000;
+    width: 99%;
+    padding: 0 20px;
+}
+
+.navbar-toggler {
+	background: rgb(222, 203, 108);
+	padding: 1px;
+	margin-bottom: 5px;
+	
+}
+#navbarNav {
+	text-align: center;
+	transition: 1s;
+}
+
+
+.nav-item {
+    margin: 15px;
+    padding: 0 15px;
+    font-size: 13px;
+    border-radius: 3px;
+    transition-duration: .4s;
+}
+
+.nav-link {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.social {
+	display: flex;
+	margin:  5px;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.social i {
+	margin: 8px;
+	font-size: 1.5em;
+	color: rgb(222, 203, 108);
+}
+
+.social i:hover {
+	transition-duration: .7s;
+	color: #E56806;
+}
+
+/** SECTIONS  **/
+
+.section1 {
+	width: 100%;
+	height: 95vh;
+	background-image: url(img2/guitar91.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 3px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.section2 {
+	width: 100%;
+	height: 105vh;
+	background-image: url(img2/guitcar.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.section3 {
+	width: 100%;
+	height: 95vh;
+	background-image: url(img2/guitarh.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.section4 {
+	width: 100%;
+	height: 86vh;
+	background-image: url(img2/guitar4.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 3px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+/** GALLERY **/
+
+#gallery img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+#gallery .col-lg-4 {
+	margin: 0 !important;
+	padding: 10px;
+}
+
+/** ABOUT US **/
+
+.hache {
+    display: flex;
+    justify-content: center;
+    color: rgb(222, 203, 108);
+}
+
+.cont-lut h3 {
+	margin-top: 5px;
+	color: rgb(222, 203, 108);
+}
+
+.title-lut {
+	text-align: center;
+	color: rgb(222, 203, 108);
+	font-family: 'Markazi Text', serif;
+}
+
+.cont-textluthery {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 3em;
+	margin: auto;
+}
+
+.text-desc {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	color: rgb(222, 203, 108);
+}
+
+#imgluth {
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+/** FOOTER **/
+
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: rgb(222, 203, 108);
+	margin-top: 5px;
+	width: 100%;
+	height: 15vh;
+	background:#000;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+footer p {
+	font-size: 0.8em;
+	color: #ABA8A6;
+}
+
+footer img {
+	margin-bottom: 5px;
+}
+
+.contactFooter {
+	text-decoration: none;
+	color: rgb(222, 203, 108);
+	font-weight: 900;
+}
+
+.contactFooter:hover {
+	transition-duration: .7s;
+	color: #E56806;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+.arrow a {
+	font-size: 1.2em;
+    color: rgb(222, 203, 108);
+}
+
+.arrow a:hover {
+	transition-duration: .5s;
+	color: #E56806;
+}
+
+/** INSTRUMENTS **/
+
+#container-ins {
+	display: flex;
+	flex-direction: row;
+}
+.card-text u {
+	color: rgb(222, 203, 108);
+}
+
+.cont-ins {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#gallery-ins {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#gallery-ins img {
+	max-height: 180px;
+	padding: 2.5px;
+	border-radius: 20px;
+	padding: 15px;
+}
+
+#hoverins:hover {
+box-shadow: 0px 0px 3px 3px #4404D9;
+}
+
+.card-body h5, p {
+	text-align: center;
+}
+
+#cont-guitar1 {
+	background: #000;
+}
+
+.list-group {
+	color: #000;
+	width: 50%;
+	margin: auto;
+}
+
+/** BUTTON BACK **/
+
+.btnback button {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+}
+
+/** FORM **/
+
+.cont-form {
+	margin: auto;
+}
+
+.cont-form h2 {
+	margin-top: 30px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Nabla', cursive;
+}
+
+.cont-form button {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.3em;
+	margin-top: 9px;
+}
+
+.card { 
+background: black; }
+
+.lastinput {
+}
+
+/** CONTACT **/ 
+
+.btnback {
+	display: flex;
+	justify-content: center;
+}
+
+#btnexp {
+	color: #fff;
+	border-radius: 40px;
+	box-shadow: 0 0 0 0 rgba(145, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	overflow: hidden;
+}
+
+#btnexp::after{
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: -30px;
+	left: -80px;
+	z-index: -1;
+	transition: transform 0.5s ease;
+}
+
+#btnexp:hover {
+	transform: translate(0, -2px);
+	box-shadow: 10px -2px 25px 0 rgba(16, 226, 255, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.7);
+}
+
+#btnexp:hover::after{
+	transform: rotate(150deg);
+}
